@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jock's Blog</title>
+  <title>Learning web dev in 180 days</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
