@@ -1,0 +1,210 @@
+/*********************************
+ General
+*********************************/
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: "Josefin Sans", 'Open Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+
+.wrapper{
+  padding: 0 5%;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  /*color: inherit;*/
+}
+
+
+
+
+
+/*********************************
+ Header
+*********************************/
+
+header{
+  border-bottom: 2px solid black;
+  height: 246px;
+}
+
+
+h1{
+  padding: 20px 0 0;
+  font-family: lobster;
+  font-size: 2em;
+}
+
+img {
+  max-width:100%;
+}
+
+
+/*********************************
+ Nav-Bar
+*********************************/
+
+nav, section ul{
+  list-style-type: none;
+}
+
+nav {
+  padding-top: 15px;
+  border-top: 2px solid black;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+nav li {
+  display: inline-block;
+  width: 50px;
+  margin: 0 30px 10px 0;
+  font-weight: bolder;
+
+}
+
+/*********************************
+ Main Element
+*********************************/
+
+.blog-items{
+  display: block;
+
+}
+
+section {
+  padding: 10px 0 20px;
+  min-height: calc(100vh - 369px);
+
+}
+
+section h3{
+  margin: 15px 0;
+  font-size: 1.5em;
+  font-family: lobster;
+
+}
+
+section h4, h5{
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+section p{
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+section a:link {
+  color: #551A8B;
+
+}
+
+
+/*********************************
+ Classes & IDs
+*********************************/
+
+#sub-header{
+  margin: 0 0 10px;
+  padding-top: 20px;
+
+}
+
+#bio-pic {
+  margin: 20px 0 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 2px solid black;
+
+}
+
+.blog-items{
+  padding: 10px 0;
+
+}
+
+.social-icon{
+  width: 30px;
+  height: 30px;
+  margin: 25px 5px;
+}
+
+.contact-details {
+  padding-top: 15px;
+}
+
+/*********************************
+ Footer
+*********************************/
+
+footer{
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+footer p{
+  font-size: .8em;
+  padding: 0 0 20px;
+}
+
+/*********************************
+ Colors
+*********************************/
+
+header{
+    background: #FA8708;
+}
+
+nav{
+  color: #551A8B;
+}
+
+nav #selector {
+  color: #CFD74E;
+}
+
+section{
+  background: #CFD74E;
+
+}
+
+footer {
+  background: #FA8708;
+}
+
+/*********************************
+ Media Queries
+*********************************/
+
+@media (min-width: 769px) {
+
+  .wrapper {
+    width: 60%;
+  }
+}
+
+
+
+
+
+
+
+
+
