@@ -57,7 +57,7 @@ h1{
  Nav-Bar
 *********************************/
 
-nav, section ul{
+.no-bullets {
   list-style-type: none;
 }
 
@@ -99,7 +99,8 @@ section h4, h5{
   text-decoration: underline;
 }
 
-section p{
+section p, 
+li{
   margin-bottom: 10px;
   line-height: 1.4;
 }
@@ -164,7 +165,15 @@ section p{
   margin: 25px 5px;
 }
 
+.wishlist {
+  padding-left: 0;
+  list-style-position: inside;
+  color: #551A8B;
+}
 
+span {
+  color: black;
+}
 
 /*********************************
  Flex-box
