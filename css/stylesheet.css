@@ -10,7 +10,7 @@
 
 
 body{
-  font-family: "Josefin Sans", 'Open Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2em;
 }
 
@@ -23,6 +23,7 @@ footer {
 a{
   text-decoration: none;
   font-weight: bold;
+  font-family:
 }
 
 a:hover {
@@ -45,12 +46,15 @@ header{
 }
 
 
-h1{
+h1 {
   padding: 20px 0 0;
-  font-family: lobster;
   font-size: 2em;
 }
 
+h1,
+section h3 {
+  font-family: 'Lobster', cursive;
+}
 
 
 /*********************************
@@ -90,7 +94,6 @@ section {
 section h3{
   margin: 15px 0;
   font-size: 1.5em;
-  font-family: lobster;
 
 }
 
@@ -169,10 +172,6 @@ li{
   padding-left: 0;
   list-style-position: inside;
   color: #551A8B;
-}
-
-span {
-  color: black;
 }
 
 /*********************************
