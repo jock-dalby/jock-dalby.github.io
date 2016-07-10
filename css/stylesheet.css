@@ -23,7 +23,6 @@ footer {
 a{
   text-decoration: none;
   font-weight: bold;
-  font-family:
 }
 
 a:hover {
@@ -49,6 +48,7 @@ header{
 h1 {
   padding: 20px 0 0;
   font-size: 2em;
+  margin: 0;
 }
 
 h1,
@@ -131,6 +131,7 @@ li{
   height: 150px;
   border-radius: 100%;
   border: 2px solid black;
+  box-shadow: 6px 6px 0 rgba(85, 26, 139, .6);
 }
 
 /*********************************
@@ -155,6 +156,8 @@ li{
 
 .contact-details {
   padding-top: 15px;
+  color: #551A8B;
+  font-weight: bold;
 }
 
 .fav-movies-header {
@@ -178,9 +181,13 @@ li{
  Flex-box
 *********************************/
 
-.container{
+.container {
   display: flex;
   flex-flow: row wrap;
+  height: 200px;
+  overflow: auto;
+  border: 4px solid #551A8B;
+  padding-top: 20px;
 }
 
 .container li{
@@ -193,6 +200,11 @@ li{
   max-width: 92%;
   border: 2px solid #551A8B;
   border-radius: 10%;
+}
+
+#no-margin {
+  margin-bottom: -20px;
+
 }
 
 /*********************************
@@ -214,7 +226,7 @@ footer p{
 
 header, 
 footer {
-    background: #FA8708;
+  background: #FA8708;
 }
 
 nav{
@@ -229,6 +241,34 @@ section{
   background: #CFD74E;
 
 }
+
+
+/*********************************
+ Slide transition
+*********************************/
+
+/*.photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide .photo-overlay,
+.slide img {
+  transition: transform .6s ease-out;
+}
+
+.slide .photo-overlay {
+  transform: translateX(-100%);
+}
+
+.slide:hover .photo-overlay {
+  transform: translateX(0);
+}
+
+.slide:hover img {
+  transform: translateX(100%);
+
+}*/
 
 
 
