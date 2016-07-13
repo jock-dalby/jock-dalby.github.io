@@ -66,11 +66,6 @@ section h3 {
  Nav-Bar
 *********************************/
 
-/*.purple-list {
-  list-style-type: none;
-  font-weight: bolder;
-}*/
-
 .no-line-height {
   line-height: 0;
 }
@@ -142,7 +137,10 @@ li{
   box-shadow: 6px 6px 0 rgba(85, 26, 139, .6);
 }
 
-
+ul.no-bullets {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
 
 /*********************************
  Classes & IDs
@@ -185,7 +183,11 @@ ul li {
 }
 
 
-
+.wireframe-image {
+  max-width: 200px;
+  border: 5px solid #551A8B;
+  margin: 20px 20px 40px 0;
+}
 /*********************************
  Flex-box
 *********************************/
@@ -230,6 +232,8 @@ footer p{
   font-size: .8em;
   padding: 0 0 20px;
 }
+
+
 
 /*********************************
  Colors
