@@ -1,34 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="gr__getskeleton_com">
 <head>
+  <!-- Basic Page Needs
+    ------------------------------------------>
+  <meta charset="UTF-8">
   <title>HTML, CSS &amp; the DOM</title>
-  <meta charset="utf-8">
-  <link href='https://fonts.googleapis.com/css?family=Lobster%7CJosefin+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="../css/normalise.css">
-  <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+  <!-- Mobile Specific Metas
+  ------------------------------------------>
+  <meta name="viewport" content="width-device-width, initial-scale-1">
+  <!-- FONT
+    ------------------------------------------>
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Lobster|Ubuntu:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <!-- CSS
+    ------------------------------------------>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
   <link rel="stylesheet" type="text/css" href="../css/responsive.css">
 </head>
 <body>
-  <header>
-    <div class="wrapper">
-      <h1>How to: Learn Web Dev<br>in 18-weeks!</h1>
-      <div id="sub-header">
-        <h2>The EDA Experience</h2>
-        <h3>by Jock Dalby</h3>
+  <div class="section hero">
+    <div class="container">
+      <div class="row name-logo">
+          <h1>Jock Dalby</h1>
+          <h4>Web Developer.</h4>
       </div>
     </div>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="blog-contents-page.html" id="selector">Blogs</a></li>
-        <li><a href="../contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <div class="wrapper">
-      
-      <h3>Blogs...</h3>
+  </div>
+  <div class="section hero">
+    <div class="container">
+      <div class="row">
+          <ul class="nav">
+            <li><a href="index.html">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="blog-contents-page.html" class="selector">Blogs</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section intro">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h4>- Website Developer<br>
+              - Start-up Entrepreneur<br>
+              - Business Owner<br>
+              - General Manager
+              </h4>
+          <a class="button button-primary" href="#">Projects</a><br>
+          <a class="button button-primary" href="#">Blog</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section main-header">
+    <div class="container">
+      <div class="row">
 
         <h4>HTML, CSS &amp; the DOM</h4>
 
@@ -39,7 +67,7 @@
         <img src="../img/ingredients.png" alt="ingredients" class="blog-pics">
 
         <p>
-          Here are the ingredients required to make a delicious spaghetti bolognese; these represent the HTML elements required to build a great web-page. 
+          Here are the ingredients required to make a delicious spaghetti bolognese; these represent the HTML elements required to build a great web-page.
         </p>
         <p>
           You could choose to serve up all the ingredients just as they are, or you could apply a little bit of CSS by cooking and seasoning the ingredients. <a href="https://www.w3.org/html/">HTML</a> provides content and defines what the web-page will be about. <a href="https://www.w3.org/Style/CSS/">CSS</a> adds style and structure to the HTML elements and makes the overall web-page easier and more enjoyable to read.
@@ -52,14 +80,14 @@
           When displaying HTML, the DOM considers all individual pieces of code as separate <b>nodes</b>. All nodes are displayed by the DOM as a hierarchical family-tree-like structure. Uh oh, I feel another analogy coming on.....
         </p>
         <p>
-          Instead of HTML code, let's imagine we are converting your favourite novel into a DOM family-tree. In this scenario, the book itself would be the first node and would sit right at the top of the tree. Then, the direct children of the book node would be all the chapter nodes who sit one branch lower than the book node. The chapters would then be parents to the paragraphs, who would be parents to the sentances, who would be parents to the words, who eventually, would be parents to the individual letters from which the book was written. The letter nodes would sit right at the bottom of the DOM family-tree, as these are the lowest child elements in the book.  
+          Instead of HTML code, let's imagine we are converting your favourite novel into a DOM family-tree. In this scenario, the book itself would be the first node and would sit right at the top of the tree. Then, the direct children of the book node would be all the chapter nodes who sit one branch lower than the book node. The chapters would then be parents to the paragraphs, who would be parents to the sentances, who would be parents to the words, who eventually, would be parents to the individual letters from which the book was written. The letter nodes would sit right at the bottom of the DOM family-tree, as these are the lowest child elements in the book.
         </p>
         <p>
           <b>Analogies done, Obama out!</b>
         </p>
 
         <img src="../img/obama.jpg" alt="Obama mic drop" class="blog-pics">
-      
+
 
         <p>
          Now time for some serious non-analogies to <b>briefly</b> explain the difference between 'boxifying' and the 'box-model'.
@@ -86,24 +114,24 @@
         </p>
 
         <img src="../img/signature.png" alt="Jock's Signature">
+      </div>
+    </div>
+  </div>
+  <div class="section footer">
+    <div class="container">
+      <div class="row">
+        <a href="https://www.facebook.com/JockDalbyNo1"><img src="../img/fb-icon.png" alt="Facebook icon" class="social-icon"></a>
 
-    </div> <!-- end of wrapper div -->
+        <a href="http://twitter.com/intent/tweet?screen-name=(jock_dalby)"><img src="../img/twitter-icon.png" alt="Twitter icon" class="social-icon"></a>
 
-  </section>
-  <footer>
+        <a href="https://www.linkedin.com/in/jonathan-jock-dalby-5986474a?trk=hp-identity-name"><img src="../img/linkedin-icon.png" alt="Linkedin icon" class="social-icon"></a>
 
-    <a href="https://www.facebook.com/JockDalbyNo1"><img src="../img/fb-icon.png" alt="Facebook icon" class="social-icon"></a>
-
-    <a href="http://twitter.com/intent/tweet?screen-name=(jock_dalby)"><img src="../img/twitter-icon.png" alt="Twitter icon" class="social-icon"></a>
-
-    <a href="https://www.linkedin.com/in/jonathan-jock-dalby-5986474a?trk=hp-identity-name"><img src="../img/linkedin-icon.png" alt="Linkedin icon" class="social-icon"></a>
-
-    <a href="mailto:jockdalby86@gmail.com"><img src="../img/gmail-icon.png" alt="Gmail icon" class="social-icon"></a>
-
-    <p>
-      &copy; Copyright Jock Dalby 2016
-    </p>
-
-  </footer>   
+        <a href="mailto:jockdalby86@gmail.com"><img src="../img/gmail-icon.png" alt="Gmail icon" class="social-icon"></a>
+      </div>
+      <div class="row">
+          <p class="copyright">&copy; Copyright Jock Dalby 2016</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

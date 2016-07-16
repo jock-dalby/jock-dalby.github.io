@@ -1,76 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="gr__getskeleton_com">
 <head>
+  <!-- Basic Page Needs
+    ------------------------------------------>
+  <meta charset="UTF-8">
   <title>Oh, the Udacity!</title>
-  <meta charset="utf-8">
-  <link href='https://fonts.googleapis.com/css?family=Lobster%7CJosefin+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="../css/normalise.css">
-  <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+  <!-- Mobile Specific Metas
+  ------------------------------------------>
+  <meta name="viewport" content="width-device-width, initial-scale-1">
+  <!-- FONT
+    ------------------------------------------>
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Lobster|Ubuntu:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <!-- CSS
+    ------------------------------------------>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
   <link rel="stylesheet" type="text/css" href="../css/responsive.css">
 </head>
 <body>
-  <header>
-    <div class="wrapper">
-      <h1>How to: Learn Web Dev<br>in 18-weeks!</h1>
-      <div id="sub-header">
-        <h2>The EDA Experience</h2>
-        <h3>by Jock Dalby</h3>
+  <div class="section hero">
+    <div class="container">
+      <div class="row name-logo">
+          <h1>Jock Dalby</h1>
+          <h4>Web Developer.</h4>
       </div>
     </div>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="blog-contents-page.html" id="selector">Blogs</a></li>
-        <li><a href="../contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <div class="wrapper">
-      
-      <h3>Blogs...</h3>
+  </div>
+  <div class="section hero">
+    <div class="container">
+      <div class="row">
+          <ul class="nav">
+            <li><a href="index.html">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="blog-contents-page.html" class="selector">Blogs</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section intro">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h4>- Website Developer<br>
+              - Start-up Entrepreneur<br>
+              - Business Owner<br>
+              - General Manager
+              </h4>
+          <a class="button button-primary" href="#">Projects</a><br>
+          <a class="button button-primary" href="#">Blog</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section main-header">
+    <div class="container">
+      <div class="row">
+        <h4>Oh, the Udacity!</h4>
 
-      <h4>Oh, the Udacity!</h4>
+        <p>
+          Hello everyone! I have just completed a really interesting <a href="https://www.udacity.com">Udacity</a> course on <a href="https://www.udacity.com/course/viewer#!/c-ud304/l-2810388540/m-2872198546">CSS Frameworks &amp; Responsive Layouts</a> and wanted to share with you, some of things I have learned.
+        </p>
 
-      <p>
-        Hello everyone! I have just completed a really interesting <a href="https://www.udacity.com">Udacity</a> course on <a href="https://www.udacity.com/course/viewer#!/c-ud304/l-2810388540/m-2872198546">CSS Frameworks &amp; Responsive Layouts</a> and wanted to share with you, some of things I have learned.
-      </p>
+        <p>
+          <a href="http://www.responsivegridsystem.com/">Grid based design</a> is a quick, easy &amp; flexible way to create a responsive web site using a 12-column grid. Each row of the grid consists of 12 columns and each of these columns are of equal width. Each HTML element contained in the grid is assigned a number of columns to occupy and their width is then calculated using a percentage value (e.g. 3 columns = 25%). As there are 12 columns to each row, and 12 is a number that can easily be divided by 2, 3, 4, 6 and 12, there are a wide range of options for how each row can be layed out. Grid based design is highly effective for responsive layouts because regardless of the size of the screen, 25% is still 25%.
+        </p>
 
-      <p>
-        <a href="http://www.responsivegridsystem.com/">Grid based design</a> is a quick, easy &amp; flexible way to create a responsive web site using a 12-column grid. Each row of the grid consists of 12 columns and each of these columns are of equal width. Each HTML element contained in the grid is assigned a number of columns to occupy and their width is then calculated using a percentage value (e.g. 3 columns = 25%). As there are 12 columns to each row, and 12 is a number that can easily be divided by 2, 3, 4, 6 and 12, there are a wide range of options for how each row can be layed out. Grid based design is highly effective for responsive layouts because regardless of the size of the screen, 25% is still 25%.
-      </p>
+        <p>
+          <a href="http://www.w3schools.com/html/html_responsive.asp">Responsive web design</a> is particularly important now more than ever, simply because of the number of different screen sizes people are using to surf the web. A well designed web page should look great on any device and to do this, it needs to recognise the size of the screen it is being viewed on and adjust the content size and layout accordingly; this is responsive web-design.
+        </p>
 
-      <p>
-        <a href="http://www.w3schools.com/html/html_responsive.asp">Responsive web design</a> is particularly important now more than ever, simply because of the number of different screen sizes people are using to surf the web. A well designed web page should look great on any device and to do this, it needs to recognise the size of the screen it is being viewed on and adjust the content size and layout accordingly; this is responsive web-design. 
-      </p>
+        <p>
+          <a href="http://html5doctor.com/lets-talk-about-semantics/">Semantic structure</a> is laying out your HTML in a fashion that reinforces the information on the page, rather than merely to define its presentation or look. A good example of this would be for headings on the page, for which there are 6 options, <b>h1-h6</b>; <b>h1</b> should be reserved for the main header on the page, <b>h2</b> would be used for sub-header, and so on and so-forth.
+        </p>
 
-      <p>
-        <a href="http://html5doctor.com/lets-talk-about-semantics/">Semantic structure</a> is laying out your HTML in a fashion that reinforces the information on the page, rather than merely to define its presentation or look. A good example of this would be for headings on the page, for which there are 6 options, <b>h1-h6</b>; <b>h1</b> should be reserved for the main header on the page, <b>h2</b> would be used for sub-header, and so on and so-forth.
-      </p>
+        <p>
+          Cheers,
+        </p>
 
-      <p>
-        Cheers,
-      </p>
+        <img src="../img/signature.png" alt="Jock's Signature">
 
-      <img src="../img/signature.png" alt="Jock's Signature">
+      </div>
+    </div>
+  </div>
+  <div class="section footer">
+    <div class="container">
+      <div class="row">
+        <a href="https://www.facebook.com/JockDalbyNo1"><img src="../img/fb-icon.png" alt="Facebook icon" class="social-icon"></a>
 
-    </div> <!-- end of wrapper div -->
+        <a href="http://twitter.com/intent/tweet?screen-name=(jock_dalby)"><img src="../img/twitter-icon.png" alt="Twitter icon" class="social-icon"></a>
 
-  </section>
-  <footer>
+        <a href="https://www.linkedin.com/in/jonathan-jock-dalby-5986474a?trk=hp-identity-name"><img src="../img/linkedin-icon.png" alt="Linkedin icon" class="social-icon"></a>
 
-    <a href="https://www.facebook.com/JockDalbyNo1"><img src="../img/fb-icon.png" alt="Facebook icon" class="social-icon"></a>
-
-    <a href="http://twitter.com/intent/tweet?screen-name=(jock_dalby)"><img src="../img/twitter-icon.png" alt="Twitter icon" class="social-icon"></a>
-
-    <a href="https://www.linkedin.com/in/jonathan-jock-dalby-5986474a?trk=hp-identity-name"><img src="../img/linkedin-icon.png" alt="Linkedin icon" class="social-icon"></a>
-
-    <a href="mailto:jockdalby86@gmail.com"><img src="../img/gmail-icon.png" alt="Gmail icon" class="social-icon"></a>
-
-    <p>
-      &copy; Copyright Jock Dalby 2016
-    </p>
-
-  </footer>   
+        <a href="mailto:jockdalby86@gmail.com"><img src="../img/gmail-icon.png" alt="Gmail icon" class="social-icon"></a>
+      </div>
+      <div class="row">
+          <p class="copyright">&copy; Copyright Jock Dalby 2016</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
