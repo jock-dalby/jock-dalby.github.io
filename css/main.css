@@ -16,8 +16,7 @@ p {
 
 a {
   text-decoration: none;
-  color: inherit;
-  font-weight: bold;
+  color: green;
 }
 
 a:hover {
@@ -38,7 +37,6 @@ img {
 .name-logo {
   font-family: 'Lobster', cursive;
   color: #A63650;
-  padding-top: 10px;
   text-align: center;
 }
 
@@ -54,15 +52,12 @@ img {
 ----------------------------------*/
 
 .nav {
-  display: block;
-  /*float: right;*/
   text-align: center;
   padding: 10px 0 0;
-  /*margin: 30px 5% 0 0;*/
   list-style-type: none;
 }
+
 .nav li{
-  /*display: inline-block;*/
   font-size: 1.8rem;
   margin-right: 2rem;
 }
@@ -74,28 +69,25 @@ img {
 ----------------------------------*/
 
 .intro {
-  background:linear-gradient(0deg, #fff, transparent), url("http://www.lightninglab.co.nz/wp-content/uploads/2015/11/unnamed2.jpg") no-repeat center;
-  background-size: cover;
-  border-top: 5px solid #A63650;
-  height: 600px;
-  padding-top: -100px;
-}
-
-.intro{
   padding-top: 60px;
   color: white;
-  font-size: 2.8em;
+  font-size: 20px;
+  height: 400px;
 }
 
-
-.whg {
-  background:url("http://whg.co.nz/imgs/whg_logo_new.png") no-repeat;
+.intro {
+  background:linear-gradient(0deg, #fff, transparent), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Lake_Matheson_(New_Zealand)_just_after_the_sunrise.jpg/1280px-Lake_Matheson_(New_Zealand)_just_after_the_sunrise.jpg") no-repeat 50% 58%;
+  background-size: cover;
 }
 
+.intro2 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2014/05/02/21/47/workstation-336369_960_720.jpg") no-repeat center;
+  background-size: cover;
+}
 
 
 /*----------------------------------
-  Main Content
+  HOMEPAGE: Main Content
 ----------------------------------*/
 
 .main-header {
@@ -104,7 +96,6 @@ img {
 
 .main-header .row {
   padding-top: 60px;
-  /*border-top: 3px solid #CCC;*/
 }
 
 .experience,
@@ -126,7 +117,7 @@ img {
 
 .footer {
   padding-top: 30px;
-  border-top: 4px solid black;
+  border-top: 2px solid #000;
   text-align: center;
 }
 
@@ -139,33 +130,6 @@ img {
 .copyright {
   font-size: 1.2em;
 }
-
-/*----------------------------------
-  Skeleton Utility Classes
-----------------------------------*/
-
-/* Make element full width */
-.u-full-width {
-  width: 100%;
-  box-sizing: border-box; }
-
-/* Make sure elements don't run outside containers (great for images in columns) */
-.u-max-full-width {
-  max-width: 100%;
-  box-sizing: border-box; }
-
-/* Float either direction */
-.u-pull-right {
-  float: right; }
-.u-pull-left {
-  float: left; }
-
-/* Clear a float */
-.u-cf {
-  content: "";
-  display: table;
-  clear: both; }
-
 
 
 /*********************************
@@ -191,6 +155,7 @@ img {
 
 .wireframe-image {
   max-width: 200px;
-  border: 5px solid #551A8B;
   margin: 20px 20px 40px 0;
 }
+
+/*Link for picture of Demo Day http://www.lightninglab.co.nz/wp-content/uploads/2015/11/unnamed2.jpg*/
