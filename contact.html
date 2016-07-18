@@ -42,12 +42,35 @@
   </section>
   <section class="main-element">
     <div class="container">
-      <div class="row">
         <h2 class="page-title">Contact</h2>
 
         <p>
           Hey! Thanks for taking the time to check out my site. If you have any feedback or questions, it would be great to hear from you.
         </p>
+
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleEmailInput">Your email</label>
+              <input class="u-full-width" type="email" placeholder="example@mail.co.nz" id="exampleEmailInput">
+            </div>
+            <div class="six columns">
+              <label for="exampleRecipientInput">Reason for contacting</label>
+              <select class="u-full-width" id="exampleRecipientInput">
+                <option value="Option 1">A question about EDA</option>
+                <option value="Option 2">Offer of employment</option>
+                <option value="Option 3">Arrange a Meeting</option>
+              </select>
+            </div>
+          </div>
+          <label for="exampleMessage">Message</label>
+          <textarea class="u-full-width" placeholder="Hi Jock …" id="exampleMessage"></textarea>
+          <label class="example-send-yourself-copy">
+            <input type="checkbox">
+            <span class="label-body">Send a copy to yourself</span>
+          </label>
+          <input class="button" style="background:#FFC300; color: #034F81; border: 1px solid #034F81" type="submit" value="Submit">
+        </form>
 
         <p>
           Please feel free to contact me using the contact details below:
@@ -57,7 +80,6 @@
           <li class="mail"><a href="mailto:jockdalby86@gmail.com"> jockdalby86@gmail.com</a></li>
           <li class="slack">jock-d-kokako</li>
         </ul>
-      </div>
     </div>
   </section>
   <section class="main-footer">
