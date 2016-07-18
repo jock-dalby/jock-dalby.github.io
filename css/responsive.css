@@ -1,10 +1,15 @@
 /* Mobile first queries */
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  .dom-blog-img {
+      max-width: 400px;
+    }
+}
 
 /* Larger than phablet */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -12,6 +17,19 @@
   nav li{
     display:inline-block;
   }
+
+  .left-img-margin {
+    margin-left: 25px;
+  }
+
+  .right-img-margin {
+    margin-right: 25px;
+  }
+  .now-pull-right {
+    float: right; }
+
+  .now-pull-left {
+    float: left; }
 }
 
 /* Larger than desktop */
