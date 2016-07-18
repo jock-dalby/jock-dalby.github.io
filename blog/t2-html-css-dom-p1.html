@@ -19,63 +19,73 @@
   <link rel="stylesheet" type="text/css" href="../css/responsive.css">
 </head>
 <body>
-  <div class="section hero">
+  <section class="main-header">
     <div class="container">
-      <div class="row name-logo">
+      <div class="row">
+        <a href="../index.html" id="logo">
           <h1>Jock Dalby</h1>
           <h4>Web Developer.</h4>
-      </div>
-    </div>
-  </div>
-  <div class="section hero">
-    <div class="container">
-      <div class="row">
-          <ul class="nav">
-            <li><a href="../index.html">About</a></li>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">Career</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a href="blog-contents-page.html" class="selector">Blogs</a></li>
+            <li><a href="../index.html#blogs" class="selector">Blogs</a></li>
             <li><a href="../contact.html">Contact</a></li>
           </ul>
+        </nav>
       </div>
     </div>
-  </div>
-  <div class="section intro">
-  </div>
-  <div class="section main-header">
+  </section>
+  <section class="main-image pic9">
+  </section>
+  <section class="main-element">
     <div class="container">
       <div class="row">
-
-        <h2 class="main-header"><u>HTML, CSS &amp; the DOM</u></h2>
+        <h2 class="page-title">HTML, CSS &amp; the DOM</h2>
 
         <p>
           This week, I have spent some time learning about <a href="https://github.com/dev-academy-programme/curriculum/tree/master/concepts/html-css-dom-udacity">HTML, CSS and the DOM</a> and have been charged with the task of coming up with my own unique analogies to describe what exactly it is they all do.
         </p>
-
-        <img src="../img/ingredients.png" alt="ingredients" class="blog-pics">
-
-        <p>
-          Here are the ingredients required to make a delicious spaghetti bolognese; these represent the HTML elements required to build a great web-page.
-        </p>
-        <p>
-          You could choose to serve up all the ingredients just as they are, or you could apply a little bit of CSS by cooking and seasoning the ingredients. <a href="https://www.w3.org/html/">HTML</a> provides content and defines what the web-page will be about. <a href="https://www.w3.org/Style/CSS/">CSS</a> adds style and structure to the HTML elements and makes the overall web-page easier and more enjoyable to read.
-        </p>
-
+      </div>
+      <div class="row">
+        <div class="five columns">
+          <img src="../img/ingredients.png" alt="ingredients" class="blog-pics">
+        </div>
+        <div class="seven columns">
+          <p>
+            Here are the ingredients required to make a delicious spaghetti bolognese; these represent the HTML elements required to build a great web-page.
+          </p>
+          <p>
+            You could choose to serve up all the ingredients just as they are, or you could apply a little bit of CSS by cooking and seasoning the ingredients. <a href="https://www.w3.org/html/">HTML</a> provides content and defines what the web-page will be about. <a href="https://www.w3.org/Style/CSS/">CSS</a> adds style and structure to the HTML elements and makes the overall web-page easier and more enjoyable to read.
+          </p>
+        </div>
+      </div>
+      <div class="row">
         <p>
           In this analogy, the <a href="https://www.w3.org/TR/DOM-Level-2-Core/introduction.html">Document Object Model (DOM)</a> is a written down recipe of the HTML ingredients currently being displayed on the screen. Because HTML content is often automatically generated as the page runs, the recipe in the DOM may not match the original recipe used to build the page. The HTML recipe within the DOM can be directly altered and adjusted, and any changes made will be applied directly to the screen. But because the changes are only being made to the DOM and not to the original recipe, the next time the page has to reload, it will refer back to the original recipe and all changes will be gone.
         </p>
         <p>
           When displaying HTML, the DOM considers all individual pieces of code as separate <b>nodes</b>. All nodes are displayed by the DOM as a hierarchical family-tree-like structure. Uh oh, I feel another analogy coming on.....
         </p>
-        <p>
-          Instead of HTML code, let's imagine we are converting your favourite novel into a DOM family-tree. In this scenario, the book itself would be the first node and would sit right at the top of the tree. Then, the direct children of the book node would be all the chapter nodes who sit one branch lower than the book node. The chapters would then be parents to the paragraphs, who would be parents to the sentances, who would be parents to the words, who eventually, would be parents to the individual letters from which the book was written. The letter nodes would sit right at the bottom of the DOM family-tree, as these are the lowest child elements in the book.
-        </p>
-        <p>
-          <b>Analogies done, Obama out!</b>
-        </p>
+      </div>
+      <div class="row">
+        <div class="seven columns">
+          <p>
+            Instead of HTML code, let's imagine we are converting your favourite novel into a DOM family-tree. In this scenario, the book itself would be the first node and would sit right at the top of the tree. Then, the direct children of the book node would be all the chapter nodes who sit one branch lower than the book node. The chapters would then be parents to the paragraphs, who would be parents to the sentances, who would be parents to the words, who eventually, would be parents to the individual letters from which the book was written. The letter nodes would sit right at the bottom of the DOM family-tree, as these are the lowest child elements in the book.
+          </p>
+          <p>
+            <b>Analogies done, Obama out!</b>
+          </p>
+        </div>
+        <div class="five columns">
 
-        <img src="../img/obama.jpg" alt="Obama mic drop" class="blog-pics">
+          <img src="../img/obama.jpg" alt="Obama mic drop" class="blog-pics">
 
-
+        </div>
+      </div>
+      <div class="row">
         <p>
          Now time for some serious non-analogies to <b>briefly</b> explain the difference between 'boxifying' and the 'box-model'.
         </p>
@@ -103,22 +113,21 @@
         <img src="../img/signature.png" alt="Jock's Signature">
       </div>
     </div>
-  </div>
-  <div class="section footer">
-    <div class="container">
-      <div class="row">
-        <a href="https://www.facebook.com/JockDalbyNo1"><img src="../img/fb-icon.png" alt="Facebook icon" class="social-icon"></a>
+  </section>
+  <section class="main-footer">
+  <div class="container">
+    <div class="row">
+      <a href="https://www.facebook.com/JockDalbyNo1"><img src="../img/fb-icon.png" alt="Facebook icon" class="social-icon"></a>
 
-        <a href="http://twitter.com/intent/tweet?screen-name=(jock_dalby)"><img src="../img/twitter-icon.png" alt="Twitter icon" class="social-icon"></a>
+      <a href="http://twitter.com/intent/tweet?screen-name=(jock_dalby)"><img src="../img/twitter-icon.png" alt="Twitter icon" class="social-icon"></a>
 
-        <a href="https://www.linkedin.com/in/jonathan-jock-dalby-5986474a?trk=hp-identity-name"><img src="../img/linkedin-icon.png" alt="Linkedin icon" class="social-icon"></a>
+      <a href="https://www.linkedin.com/in/jonathan-jock-dalby-5986474a?trk=hp-identity-name"><img src="../img/linkedin-icon.png" alt="Linkedin icon" class="social-icon"></a>
 
-        <a href="mailto:jockdalby86@gmail.com"><img src="../img/gmail-icon.png" alt="Gmail icon" class="social-icon"></a>
-      </div>
-      <div class="row">
-          <p class="copyright">&copy; Copyright Jock Dalby 2016</p>
-      </div>
+      <a href="mailto:jockdalby86@gmail.com"><img src="../img/gmail-icon.png" alt="Gmail icon" class="social-icon"></a>
+
+      <p class="copyright">&copy; Jock Dalby 2016</p>
     </div>
   </div>
+  </section>
 </body>
 </html>

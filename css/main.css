@@ -1,4 +1,7 @@
 
+/*----------------------------------
+  General Formatting
+----------------------------------*/
 
 * {
   margin: 0 auto;
@@ -7,16 +10,12 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 100%;
-}
-
-p {
-  font-size: 2rem;
 }
 
 a {
   text-decoration: none;
-  color: green;
+  color: #333333;
+  font-weight: bolder;
 }
 
 a:hover {
@@ -28,75 +27,193 @@ img {
   max-width:100%;
 }
 
-
-
-/*----------------------------------
-  Name Logo
-----------------------------------*/
-
-.name-logo {
-  font-family: 'Lobster', cursive;
-  color: #A63650;
-  text-align: center;
-}
-
-.name-logo h4{
-  margin-left: 0.64em;
-  margin-top: -1.1em;
-}
-
-
-
-/*----------------------------------
-  Navigation / Menu
-----------------------------------*/
-
-.nav {
-  text-align: center;
-  padding: 10px 0 0;
+ul {
   list-style-type: none;
 }
 
-.nav li{
-  font-size: 1.8rem;
-  margin-right: 2rem;
-}
-
-
 
 /*----------------------------------
-  Intro
+  Main-header / navigation
 ----------------------------------*/
 
-.intro {
+.main-header {
+  padding-top: 10px;
+  border-bottom: 3px solid #01C8C8;
+}
+
+.main-header,
+.main-footer {
+  background: #FFC300;
+  text-align: center;
+}
+
+#logo,
+.page-title {
+  font-family: 'Lobster', cursive;
+}
+
+#logo:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#logo h4 {
+  margin: -30px auto 0;
+}
+
+nav {
+  text-align:center;
+  padding: 10px 0 0;
+}
+
+nav ul{
+  list-style:none;
+  margin: 0 10px;
+  padding:0;
+}
+
+nav li a{
+  display: block;
+  font-weight:800px;
+  margin:10px 30px 0;
+  font-size: 1.8rem;
+}
+
+nav .selector {
+  color: #01C8C8;
+  font-weight: 800;
+}
+
+/*----------------------------------
+  Main-image
+----------------------------------*/
+
+/*-- Main-image general styling --*/
+.main-image {
   padding-top: 60px;
-  color: white;
-  font-size: 20px;
   height: 400px;
 }
 
-.intro {
-  background:linear-gradient(0deg, #fff, transparent), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Lake_Matheson_(New_Zealand)_just_after_the_sunrise.jpg/1280px-Lake_Matheson_(New_Zealand)_just_after_the_sunrise.jpg") no-repeat 50% 58%;
+/*-- Homepage main-image --*/
+.pic1 {
+  background:linear-gradient(0deg, #fff, transparent), url("http://www.wellingtonwaterfront.co.nz/wp-content/uploads/wellington-waterfront.jpg") no-repeat center;
   background-size: cover;
+  margin-bottom: -220px;
 }
+
+.pic2 {
+  background:linear-gradient(0deg, #fff, transparent), url("http://www.lightninglab.co.nz/wp-content/uploads/2015/11/unnamed2.jpg") no-repeat 50% 62%;
+  background-size: cover;
+  margin-bottom: -70px;
+  color: white;
+}
+
+.pic3 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/04/19/05/07/turntable-1337986_960_720.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
+.pic4 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/02/15/11/43/treadmill-1201014_960_720.jpg") no-repeat 50% 100%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
+.pic5 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/02/11/09/01/alarm-clock-1193291_960_720.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
+.pic6 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/03/06/05/02/new-brighton-1239724_960_720.jpg") no-repeat 50% 22%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
+.pic7 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/02/03/13/05/china-1177009_960_720.jpg") no-repeat 50% 22%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
+.pic8 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2015/08/28/11/37/painting-911804_960_720.jpg") no-repeat 50% 22%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
+.pic9 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2015/04/23/22/00/amazing-736885_960_720.jpg") no-repeat 50% 70%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
+.pic10 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2014/12/08/21/25/business-561387_960_720.jpg") no-repeat 50% 22%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
+.pic11 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/01/13/22/48/potter-1139047_960_720.jpg") no-repeat 50% 55%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
 
 .intro2 {
   background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2014/05/02/21/47/workstation-336369_960_720.jpg") no-repeat center;
   background-size: cover;
 }
 
+.intro3 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/03/29/00/22/meditation-1287207_960_720.jpg") no-repeat center;
+  background-size: cover;
+}
+
+
 
 /*----------------------------------
-  HOMEPAGE: Main Content
+  Main-element
 ----------------------------------*/
 
-.main-header {
+.page-title {
   text-align: center;
+  padding-top: 40px;
+  color: #034F81;
 }
 
-.main-header .row {
-  padding-top: 60px;
+th {
+  text-decoration: underline;
+  color: #FFC300;
 }
+
+/*----------------------------------
+  Main-footer
+----------------------------------*/
+
+.main-footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 3px solid #333333;
+}
+
+.social-icon {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px 15px;
+}
+
+/*----------------------------------
+  HOMEPAGE
+----------------------------------*/
+
+
+/*----------------------------------
+  ABOUT PAGE
+----------------------------------*/
 
 .experience,
 .endorsement {
@@ -104,31 +221,9 @@ img {
 }
 
 .endorsement {
-  background: #A63650; /*Put transarent layer over top to reduce intensity*/
-  color: white;
+  background: #D3D3D3; /*Put transarent layer over top to reduce intensity*/
+  /*color: white;*/
   text-align: right;
-}
-
-
-
-/*----------------------------------
-  Footer
-----------------------------------*/
-
-.footer {
-  padding-top: 30px;
-  border-top: 2px solid #000;
-  text-align: center;
-}
-
-.social-icon {
-  height: 20px;
-  width: 20px;
-  margin: 0 0 15px 15px;
-}
-
-.copyright {
-  font-size: 1.2em;
 }
 
 
@@ -136,26 +231,41 @@ img {
  Classes & IDs
 *********************************/
 
-.blog-items {
-  display: block;
-  padding: 10px 0;
-}
-
 .blog-pics {
-  display: block;
-  max-width: 350px;
-  margin-bottom: 30px;
+  border: 2px solid #034F81;
+  border-radius: 5%;
 }
-
-.wishlist {
-  padding-left: 0;
-  list-style-position: inside;
-}
-
 
 .wireframe-image {
   max-width: 200px;
   margin: 20px 20px 40px 0;
 }
 
+/*********************************
+ Skeleton Utility Classes
+*********************************/
+
+/* Make element full width */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+/* Make sure elements don't run outside containers (great for images in columns) */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+
+/* Float either direction */
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+/* Clear a float */
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
 /*Link for picture of Demo Day http://www.lightninglab.co.nz/wp-content/uploads/2015/11/unnamed2.jpg*/
+/*https://pixabay.com/static/uploads/photo/2016/07/11/20/34/lost-places-1510592_960_720.jpg*/
