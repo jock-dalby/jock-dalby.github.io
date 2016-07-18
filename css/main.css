@@ -68,6 +68,7 @@ ul {
 nav {
   text-align:center;
   padding: 10px 0 0;
+  width: 100%;
 }
 
 nav ul{
@@ -76,10 +77,13 @@ nav ul{
   padding:0;
 }
 
+nav li {
+  margin:10px 5% 0;
+}
+
 nav li a{
   display: block;
   font-weight:800px;
-  margin:10px 30px 0;
   font-size: 1.8rem;
 }
 
