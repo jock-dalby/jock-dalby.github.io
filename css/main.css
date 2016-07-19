@@ -37,17 +37,19 @@ ul {
 
 
 /*----------------------------------
-  Images
+  Images / figures
 ----------------------------------*/
 
-.blog-img {
-  text-align: center;
+figure {
+  display: inline-block;
 }
 
-.blog-img img{
+figure,
+.blog-img {
   margin: 0 0 10px;
   border: 4px solid #034F81;
   border-radius: 5px;
+  text-align: center;
 }
 
 
@@ -224,15 +226,27 @@ th {
   margin: 0 10px 15px;
 }
 
+
+
 /*----------------------------------
-  HOMEPAGE
+  ABOUT PAGE
 ----------------------------------*/
 
-.re-button {
-  color: #034F81;
-  background: #FFC300;
-  border: 2px solid #034F81;
+.experience,
+.endorsement {
+  padding: 30px 0 10px;
 }
+
+.endorsement {
+  background: #D3D3D3;
+  text-align: right;
+}
+
+
+
+/*----------------------------------
+  CONTACT PAGE
+----------------------------------*/
 
 .contact-info{
   list-style:none;
@@ -260,20 +274,14 @@ th {
   background-image: url('../img/slack-icon.jpeg');
 }
 
+
+
 /*----------------------------------
-  ABOUT PAGE
+  HTML, CSS & The DOM
 ----------------------------------*/
 
-.experience,
-.endorsement {
-  padding: 30px 0 10px;
-}
 
-.endorsement {
-  background: #D3D3D3; /*Put transarent layer over top to reduce intensity*/
-  /*color: white;*/
-  text-align: right;
-}
+
 
 
 /*********************************

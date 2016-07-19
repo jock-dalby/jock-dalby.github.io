@@ -18,22 +18,21 @@
     display:inline-block;
   }
 
-  .left-img-margin {
-    margin-left: 25px;
-  }
-
-  .right-img-margin {
-    margin-right: 25px;
-  }
-  .now-pull-right {
-    float: right; }
-
-  .now-pull-left {
-    float: left; }
-}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+
+  figure.boxify {
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+
+  figure.box-model {
+    float: right;
+    margin: 0 0 20px 20px;
+  }
+
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
