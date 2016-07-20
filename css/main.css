@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  1.2em;
 }
 
 p {
@@ -31,8 +32,14 @@ img {
   max-width:100%;
 }
 
-ul {
+nav {
   list-style-type: none;
+}
+
+ul,
+ul ul {
+  font-size: 1.1em;
+  list-style-type: disc;
 }
 
 
@@ -182,17 +189,11 @@ nav .selector {
   margin-bottom: -120px;
 }
 
-
-.intro2 {
-  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2014/05/02/21/47/workstation-336369_960_720.jpg") no-repeat center;
+.pic12 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/01/28/21/50/buddha-1167012_960_720.jpg") no-repeat center;
   background-size: cover;
+  margin-bottom: -120px;
 }
-
-.intro3 {
-  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/03/29/00/22/meditation-1287207_960_720.jpg") no-repeat center;
-  background-size: cover;
-}
-
 
 
 /*----------------------------------
