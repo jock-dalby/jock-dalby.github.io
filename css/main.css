@@ -195,6 +195,11 @@ nav .selector {
   margin-bottom: -120px;
 }
 
+.pic13 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2015/03/26/09/54/people-690547_960_720.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: -120px;
+}
 
 /*----------------------------------
   Main-element
