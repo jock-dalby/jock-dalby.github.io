@@ -201,6 +201,12 @@ nav .selector {
   margin-bottom: -120px;
 }
 
+.pic14 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2015/11/20/07/55/thinking-1052567_960_720.jpg") no-repeat 100% 80%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
 /*----------------------------------
   Main-element
 ----------------------------------*/
