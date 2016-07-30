@@ -207,6 +207,12 @@ nav .selector {
   margin-bottom: -120px;
 }
 
+.pic15 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2015/12/04/17/10/sphere-1076839_960_720.jpg") no-repeat 50% 30%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
 /*----------------------------------
   Main-element
 ----------------------------------*/
