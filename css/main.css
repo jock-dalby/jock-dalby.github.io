@@ -245,6 +245,25 @@ th {
 }
 
 
+/*----------------------------------
+  HOME PAGE
+----------------------------------*/
+
+.bio {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 0;
+  font-family: 'Lobster', cursive;
+  border-bottom: 3px solid #FFC300;
+  color: #034F81;
+}
+
+.bio-pic {
+  width: 200px;
+  border-radius: 50%;
+  margin: -120px auto 10px;
+  border: 6px solid #FFC300;
+}
 
 /*----------------------------------
   ABOUT PAGE
