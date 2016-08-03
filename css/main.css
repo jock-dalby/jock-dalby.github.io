@@ -213,6 +213,12 @@ nav .selector {
   margin-bottom: -120px;
 }
 
+.pic16 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/01/30/22/04/vintage-1170657_960_720.jpg") no-repeat 50% 30%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
 /*----------------------------------
   Main-element
 ----------------------------------*/
