@@ -224,6 +224,12 @@ nav .selector {
   margin-bottom: -120px;
 }
 
+.pic18 {
+  background:linear-gradient(0deg, #fff, transparent), url("https://pixabay.com/static/uploads/photo/2016/03/28/14/19/destination-1285851_960_720.png") no-repeat 50% 0%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
 /*----------------------------------
   Main-element
 ----------------------------------*/
