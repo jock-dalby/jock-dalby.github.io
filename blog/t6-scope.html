@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="gr__getskeleton_com">
+<head>
+  <!-- Basic Page Needs
+    ------------------------------------------>
+  <meta charset="UTF-8">
+  <title>What is Scope?</title>
+  <!-- FONT
+    ------------------------------------------>
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Lobster|Ubuntu:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <!-- CSS
+    ------------------------------------------>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+  <!-- Mobile Specific Metas
+  ------------------------------------------>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <section class="main-header">
+    <div class="container">
+      <a href="../index.html" id="logo">
+        <h1>Jock Dalby</h1>
+        <h4>Web Developer.</h4>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">Career</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="../index.html#blogs" class="selector">Blogs</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+  <section class="main-image pic19">
+  </section>
+  <section class="main-element">
+    <div class="container">
+      <h2 class="page-title">What is Scope?</h2>
+
+      <p>
+        In JavaScript, 'scope' defines where a variable is available within your code, and if it is truly the same variable or a new copy.
+      </p>
+
+      <p>
+        When JavaScript is parsed, the whole script forms a 'global lexical environment' (GLE), which all the code sits inside. With each new function that is declared in the GLE, a new 'local lexical environemnt' is created for that function. Code within a functions local lexical environment can only be accessed by other code within that function or any other functions it declares; this is referred to as 'local scope'. 'Global scope' is code that is not defined within a function and is available to all code everywhere.
+      </p>
+
+      <p>
+        Think of it as different security levels within an organisation. Everyone within the organisation is granted security clearance level 1 (basic). The people with security clearance level 2 have access to levels 1 &amp; 2. The people with security clearance level 3 have access to levels 1, 2 &amp; 3. When a new function is declared in the initial global environment, it is set at security clearance level 2 and only code within this new function is permitted access. Each time another function is declared within this function, the security clearance level is increased by 1 and only the code within the newly created function is given the new security clearance level.
+      </p>
+
+      <p>
+        Scope can be a little confusing at first, but it is extremely helpful as it  allows you to use the same variable names within different scopes and prevents one from overwriting the other.
+      </p>
+
+      <p>
+        Cheers,
+      </p>
+
+      <img src="../img/signature.png" alt="Jock's Signature">
+    </div>
+  </section>
+  <section class="main-footer">
+    <div class="container">
+      <a href="https://www.facebook.com/JockDalbyNo1"><img src="../img/fb-icon.png" alt="Facebook icon" class="social-icon"></a>
+
+      <a href="http://twitter.com/intent/tweet?screen-name=(jock_dalby)"><img src="../img/twitter-icon.png" alt="Twitter icon" class="social-icon"></a>
+
+      <a href="https://www.linkedin.com/in/jonathan-jock-dalby-5986474a?trk=hp-identity-name"><img src="../img/linkedin-icon.png" alt="Linkedin icon" class="social-icon"></a>
+
+      <a href="mailto:jockdalby86@gmail.com"><img src="../img/gmail-icon.png" alt="Gmail icon" class="social-icon"></a>
+
+      <p class="copyright">&copy; Jock Dalby 2016</p>
+    </div>
+  </section>
+</body>
+</html>
