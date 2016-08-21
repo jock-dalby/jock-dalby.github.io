@@ -225,7 +225,7 @@ nav .selector {
 }
 
 .pic18 {
-  background:linear-gradient(0deg, #fff, transparent), url(../img/destination.jpg) no-repeat 50% 0%;
+  background:linear-gradient(0deg, #fff, transparent), url(../img/destination.png) no-repeat 50% 0%;
   background-size: cover;
   margin-bottom: -120px;
 }
