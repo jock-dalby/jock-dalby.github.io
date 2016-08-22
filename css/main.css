@@ -242,6 +242,12 @@ nav .selector {
   margin-bottom: -120px;
 }
 
+.pic21 {
+  background:linear-gradient(0deg, #fff, transparent), url(../img/sunocean.jpg) no-repeat 50% 40%;
+  background-size: cover;
+  margin-bottom: -120px;
+}
+
 /*----------------------------------
   Main-element
 ----------------------------------*/
